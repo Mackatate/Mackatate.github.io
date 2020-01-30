@@ -3,6 +3,11 @@
 * Secondary Color: Blue
 */
 
+
+body{
+background: chartreuse;
+
+}
 h1 {
   color: red;
   font-family: 'Bangers', cursive;
