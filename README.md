@@ -1,6 +1,9 @@
 # Mackatate.github.io
 Mackatate.com
 
+## Bio (50+ Words)
+
+
 ## Style Tile
 ### Colors
 * Primary: Crimson
