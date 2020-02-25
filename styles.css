@@ -3,17 +3,33 @@
 * Secondary Color: Blue
 */
 
-
 body{
-background: chartreuse;
-
+  background: Black;
+  text-decoration: none;
 }
+
 h1 {
-  color: red;
+  color: white; 
   font-family: 'Bangers', cursive;
-  font-size: 3em;
-  text-align: center;
-  Letter-Spacing: 6px;
+  font-size: 3em; 
+}
+
+nav {
+  background: red;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: space-around;
+    }
+
+nav h1{
+  nav a:link;
+  nav a:visited {
+    color: white;
+    text-decoration: none;
+    padding: .5em;
+    margin: .5em;
+  }
 }
 
 /* Typography 
