@@ -3,37 +3,67 @@
 * Secondary Color: Blue
 */
 
-body{
-  background: Black;
-  text-decoration: none;
-}
-
-h1 {
-  color: white; 
-  font-family: 'Bangers', cursive;
-  font-size: 3em; 
-}
-
-nav {
-  background: red;
-  display: flex;
-  height: 100%;
-  align-items: center;
-  justify-content: space-around;
-    }
-
-nav h1{
-  nav a:link;
-  nav a:visited {
-    color: white;
-    text-decoration: none;
-    padding: .5em;
-    margin: .5em;
-  }
-}
-
 /* Typography 
-* Primary Font: font-family: 'Bangers', cursive; 
-
+* Primary Font: font-family: 'Bangers', cursive;
+* Secondary font: font-family: 'Ubuntu'
 */
 
+body{
+  background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  text-decoration: none;
+    
+  }
+  
+  nav {
+    background: red;
+    display: flex;
+    height: 3em;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0em;
+    padding: .5em;
+      }
+  
+  nav h1 a {
+    color: whitesmoke; 
+    font-family: 'Bangers', cursive;
+    font-size: 2em;
+    padding: .1em;
+  }
+  
+  nav a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: Ubuntu; 
+    
+    
+  }
+  
+   nav a:link, 
+  nav a:visited { 
+    text-decoration: none;
+    color: black;
+    padding: .5em;  
+    transition: backdrop 1s,
+        transform 1s ease-in-out;
+  }  
+  
+  nav a:hover, 
+  nav a:focus, 
+  nav a:active {
+    color: red;
+    background: black;
+    padding: .5em;
+    transform: scale(1.5);
+      transition: backdrop 2s;
+        transform: 2s ease-in-out;
+  }
+
+
+  blockquote {
+    text-align: center;
+    color: whitesmoke;
+  }

@@ -17,3 +17,8 @@ Mackatate.com
 ## References
 * [Normalize](https://necolas.github.io/normalize.css/)
 * [Google Fonts] (https://fonts.google.com)
+* [UI Gradients] (https://uigradients.com/#DeepSpace)
+
+
+## Images
+4s Tourney.jpg
