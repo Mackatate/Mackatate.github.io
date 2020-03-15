@@ -67,3 +67,14 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
     text-align: center;
     color: whitesmoke;
   }
+
+  h2 {
+    color: lightskyblue;
+    text-decoration: underline;
+    align-content: center;
+  }
+  
+  p {
+    color: whitesmoke;
+  }
+  
