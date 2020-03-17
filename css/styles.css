@@ -56,7 +56,7 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
     color: red;
     background: black;
     padding: .5em;
-    transform: scale(1.5);
+    transform: scale();
       transition: backdrop 1s;
         transform: 1s ease-in-out;
   }
